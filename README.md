@@ -1,1 +1,1 @@
-Bu proje de 2 adet integer array ve 2 isim girilen bir metot var ve çıktı olarak bize istenilen formatta bir string dönüyor.# MyDemoAp
+[![Build Status](https://travis-ci.org/furkanbegendi/MyDemoAp.svg?branch=master)](https://travis-ci.org/furkanbegendi/MyDemoAp)
