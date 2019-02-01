@@ -1,1 +1,0 @@
-macbookpro@MacBookPro-FurkanBegendi.local.1715
