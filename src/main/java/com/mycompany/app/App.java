@@ -50,7 +50,7 @@ public class App
 
        return player1+"\n"+player2;
    }
-    
+
     public static void main(String[] args) {
 
             port(getHerokuAssignedPort());
@@ -66,7 +66,7 @@ public class App
               sc1.useDelimiter("[;\r\n]+");
                int[] inputList1 = new int[20];
                int flag=0;
-              while (flag<inputList1.length)
+              while (sc1.hasNext() && flag<inputList1.length)
               {
                 int value = Integer.parseInt(sc1.next().replaceAll("\\s",""));
                 inputList1[flag]=value;
@@ -81,7 +81,7 @@ public class App
               sc2.useDelimiter("[;\r\n]+");
                int[] inputList2 = new int[20];
                int flag2=0;
-              while (flag<inputList1.length)
+              while (sc2.hasNext() && flag2<inputList2.length)
               {
                 int value = Integer.parseInt(sc2.next().replaceAll("\\s",""));
                 inputList2[flag2]=value;
